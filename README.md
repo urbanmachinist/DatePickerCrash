@@ -3,8 +3,9 @@ Project showing the date picker crash in ios.
 
 
 The storyboard has a single view which is connected to the ViewController.swift class. 
-The view has just 2 UITextFields, and each has an IBOutlet.
-Steps: 
+The view consists of solely 2 UITextFields, each of which has an IBOutlet into the ViewController class.
+
+Steps to reproduce the crash: 
 
 1. Run the project.
 2. Tap on the top text field -> shows the date picker.
